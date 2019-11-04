@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="HTML, CSS & JS Quiz">
+    <title>Quiz App</title>
+    <link rel="shortcut icon" href="#">
+    <link href="float-grid.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div class="row">
+        <div class="col-12">
+          <h1>Welcome to Soccer Trivia</h1>
+          <div class="question-and-score"></div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main" aria-live="assertive">
+      <fieldset>
+        <div class="row">
+          <div class="col-12">
+            <legend>Soccer Trivia Questions</legend>
+            <p>Soccer fans are found everywhere. So, I call on to all of them. Wear your cleats and whizz past this quiz to score. Watch out because the goalie "Wrong Answer" is outstanding. You got it, right?</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <button type="button" id="start"> Get Started</button>
+          </div>
+        </div>
+      </fieldset>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script src="store.js"></script>
+  </body>
+</html>
